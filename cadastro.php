@@ -25,12 +25,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body class="login-page">
 
 <div class="login-panel">
-    <h2>Registo de Cliente</h2>
+    <h2>Registro de Admin</h2>
 
     <form method="POST" style="flex-direction: column;">
-        <input type="text" name="nome" placeholder="Nome Completo" required>
-        <input type="email" name="email" placeholder="Email / Telefone" required>
-        <input type="password" name="senha" placeholder="Palavra-passe" required>
+        <input type="text" name="nome" placeholder="Usuario" required>
+        <input type="password" name="senha" placeholder="Senha" required>
         <button type="submit" style="margin-top: 10px;">Registar</button>
     </form>
     
