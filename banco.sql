@@ -42,9 +42,6 @@ CREATE TABLE IF NOT EXISTS vendas (
 );
 
 
-
-select * from clientes;
-
 CREATE TABLE IF NOT EXISTS clientes (
     id_cliente INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
