@@ -60,7 +60,7 @@ INSERT IGNORE INTO pecas (nome, descricao, preco, preco_custo, quantidade) VALUE
 ('Palhetas Limpa Pára-brisas BYD Seal', 'Par de palhetas silicone', 180.00, 60.00, 8),
 ('Bateria 12V Auxiliar Moura', 'Bateria para sistemas internos EV', 550.00, 320.00, 3);
 
-INSERT INTO fornecedores (nome, telefone) VALUES
+INSERT INTO clientes (nome, telefone) VALUES
 ('PG Autoparts Brazil', '(11) 34522-1517'),
 ('BR AutoParts', '(13) 43621-8521'),
 ('PPL Distribuidora', '(11) 43254-8452'),
