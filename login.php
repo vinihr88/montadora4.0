@@ -5,7 +5,7 @@ include "conexao.php";
 $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];
 
-if($usuario === 'admin' && $senha === '123456') {
+if($usuario === 'admin' && $senha === 'montadora2026') {
     $_SESSION['usuario'] = $usuario;
     header("Location: dashboard.php");
     exit();
@@ -25,4 +25,5 @@ if($result->num_rows > 0){
 } else {
     echo "<script>alert('Login ou senha inválidos!'); window.location.href='index.php';</script>";
 }
+
 ?>
