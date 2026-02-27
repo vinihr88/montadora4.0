@@ -59,3 +59,5 @@ INSERT IGNORE INTO pecas (nome, descricao, preco, preco_custo, quantidade) VALUE
 ('Fluido de Arrefecimento de Bateria EV', 'Líquido térmico 1L', 95.00, 40.00, 20),
 ('Palhetas Limpa Pára-brisas BYD Seal', 'Par de palhetas silicone', 180.00, 60.00, 8),
 ('Bateria 12V Auxiliar Moura', 'Bateria para sistemas internos EV', 550.00, 320.00, 3);
+
+INSERT INTO usuarios (usuario, senha) VALUES ('admin', 'montadora2026');
